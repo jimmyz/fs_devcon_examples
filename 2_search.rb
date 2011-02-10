@@ -18,7 +18,7 @@ def print_result(search_result)
 end
 
 if authenticate_me(com)
-  search = com.familytree_v2.search :givenName => "Parker", :familyName => "Felch"
+  search = com.familytree_v2.search :givenName => "Parker", :familyName => "Felch", :father => {:givenName => 'Lewis'}
   search.results.each do |result|
     print_result(result)
   end
