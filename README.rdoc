@@ -1,0 +1,6 @@
+These are code samples for presentation demo'ing the ruby-fs-stack project:
+https://github.com/jimmyz/ruby-fs-stack
+
+see also https://devnet.familysearch.org/events/recorded-presentations
+
+Note that to use these examples, you'll first need a "Reference System" FamilySearch API account, then create an 'authenticate.rb' file like the 'authenticate_example.rb' file, then update your Reference System pedigree and change the ID numbers used in the example files.
