@@ -1,3 +1,4 @@
+$:.unshift File.dirname(__FILE__)
 require 'rubygems'
 require 'ruby-fs-stack'
 require 'authenticate'
